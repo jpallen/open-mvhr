@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  client.loop();
+  mqttClientLoop();
 }
 
 void resetFanSpeed() {
